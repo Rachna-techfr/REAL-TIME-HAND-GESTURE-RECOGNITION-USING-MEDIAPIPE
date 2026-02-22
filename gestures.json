@@ -1,0 +1,36 @@
+ {
+  "modes": {
+    "app_mode": "THUMBSDOWN"
+  },  
+  "global_gestures": {
+    "PALM": "chrome",
+    "ROCK": "youtube",
+    "VICTORY": "notepad",
+    "FIST": "calculator",
+    "OK": "vscode",
+    "THUMBSUP": "keyboard"
+  },
+  "app_specific": {
+    "chrome": {
+      "VICTORY": "new_tab",
+      "ROCK": "scroll_down",
+      "THUMBSUP": "refresh"
+    },
+    "youtube": {
+      "VICTORY": "play_pause",
+      "ROCK": "volume_up",
+      "THUMBSUP": "next_video"
+    },
+    "vscode": {
+      "VICTORY": "save_file",
+      "ROCK": "run_code",
+      "THUMBSUP": "open_terminal"
+    }
+  },
+  "thresholds": {
+    "ok_distance": 0.05,
+    "pinch_left_click": 0.045,
+    "right_click": 0.03,
+    "drag_fist": 0.10
+  }
+}
